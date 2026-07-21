@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Ejemplo</title>
+</head>
+<body>
+    <h1>Continuación de la clase</h1>
+
+    <form action="ejemplo.php" method="post">
+        <center>
+            <table border="1">
+                <tr>
+                    <td>Nombre:</td>
+                    <td>
+                        <input type="text" name="nombre" size="18"> 
+                        F. nac: <input type="text" name="edad" size="8"> 
+                        DNI: <input type="text" name="dni" size="8">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Apellido:</td>
+                    <td><input type="text" name="apellidos" size="48"></td>
+                </tr>
+                <tr>
+                    <td>Opción:</td>
+                    <td>
+                        <select name="opcion">
+                            <option>Opción 1</option>
+                            <option>Opción 2</option>
+                            <option>Opción 3</option>
+                        </select>
+                        Escoja una opción
+                    </td>
+                </tr>
+                <tr>
+                    <td>Comentarios <br> Personales</td>
+                    <td>
+                        <textarea name="coment" rows="4" cols="48"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center"><b>Pulse aquí</b></td>
+                    <td align="center">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar">
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </form>
+</body>
+</html>
